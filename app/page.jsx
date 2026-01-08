@@ -9,7 +9,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="bg-blue-600 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 text-center">
           <h1 className="text-4xl font-bold mb-4">أهلاً بك في مركز أخبار القاهرة</h1>
           <p className="text-xl text-blue-100">مصدرك الموثوق للأخبار المحلية والأحداث والإعلانات</p>
         </div>
@@ -17,9 +17,9 @@ export default function Home() {
 
       {/* Latest News Section */}
       <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           <h2 className="text-3xl font-bold mb-8 text-gray-800">أحدث الأخبار</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {latestNews.map((article) => (
               <NewsCard
                 key={article.id}
@@ -44,9 +44,9 @@ export default function Home() {
 
       {/* Quick Links Section */}
       <section className="py-16 bg-blue-100">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           <h2 className="text-3xl font-bold mb-8 text-gray-800">اكتشف المزيد</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
               href="/news"
               className="bg-linear from-blue-50 to-blue-100 p-6 rounded-lg hover:shadow-lg transition border border-blue-200"
