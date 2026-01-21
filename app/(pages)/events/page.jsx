@@ -9,10 +9,10 @@ export const metadata = {
 export default function EventsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="bg-green-600 text-white py-12">
+      <div className="bg-blue-600 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">الأحداث القادمة</h1>
-          <p className="text-xl text-green-100">لا تفوت الأحداث المثيرة التي تحدث في القاهرة</p>
+          <p className="text-xl text-blue-100">لا تفوت الأحداث المثيرة التي تحدث في القاهرة</p>
         </div>
       </div>
 
