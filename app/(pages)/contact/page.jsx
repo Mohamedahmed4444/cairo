@@ -33,7 +33,7 @@ export default function ContactPage() {
 
     return (
         <div className="min-h-screen bg-gray-50">
-            <div className="bg-orange-600 text-white py-12">
+            <div className="bg-blue-600 text-white py-12">
                 <div className="max-w-7xl mx-auto px-4 text-center">
                     <h1 className="text-4xl font-bold mb-4">اتصل بنا</h1>
                     <p className="text-xl text-orange-100">نود سماع رأيك. أرسل لنا رسالة!</p>
@@ -89,7 +89,8 @@ export default function ContactPage() {
                                         onChange={handleChange}
                                         placeholder="اسمك"
                                         required
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-300 text-black"
+                                        
                                     />
                                 </div>
 
@@ -105,7 +106,7 @@ export default function ContactPage() {
                                         onChange={handleChange}
                                         placeholder="بريدك@البريد.com"
                                         required
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-300 text-black"
                                     />
                                 </div>
 
@@ -121,13 +122,13 @@ export default function ContactPage() {
                                         placeholder="اكتب رسالتك هنا..."
                                         rows={6}
                                         required
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-300 text-black"
                                     ></textarea>
                                 </div>
 
                                 <button
                                     type="submit"
-                                    className="w-full bg-orange-600 text-white py-3 rounded-lg hover:bg-orange-700 transition font-medium"
+                                    className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-orange-700 transition font-medium"
                                 >
                                     إرسال الرسالة
                                 </button>
